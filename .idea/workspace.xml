@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e617274-2762-4212-8cb9-c44f35819f58" name="Changes" comment="implemented the product service">
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerceapp/orderservice/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerceapp/orderservice/dto/OrderLineItemsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerceapp/orderservice/dto/OrderRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerceapp/orderservice/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerceapp/orderservice/model/OrderLineItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerceapp/orderservice/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/ecommerceapp/orderservice/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="4e617274-2762-4212-8cb9-c44f35819f58" name="Changes" comment="implemented the product service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="microservices-ecommerce-app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="microservices-ecommerce-app" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="product-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerceapp.productservice.ProductServiceApplication" />
@@ -123,6 +127,7 @@
       <workItem from="1651496040596" duration="24000" />
       <workItem from="1651496083288" duration="74000" />
       <workItem from="1651519513577" duration="49000" />
+      <workItem from="1651784992440" duration="476000" />
     </task>
     <task id="LOCAL-00001" summary="implemented the product service">
       <created>1651447107819</created>
