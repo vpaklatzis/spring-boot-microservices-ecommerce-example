@@ -22,7 +22,7 @@ import java.util.UUID;
 @Transactional
 public class OrderService {
     private final OrderRepository orderRepository;
-    private final WebClient webClient;
+    private final WebClient.Builder webClientBuilder;
 
     public void submitOrder(OrderRequestDto orderRequest) {
         Order order = new Order();
@@ -42,8 +42,8 @@ public class OrderService {
 
         // Gets an array of inventoryResponseDto objects
         // If the products are in stock in the inventory-service, then submits the order.
-        InventoryResponseDto[] inventoryResponseDtos = webClient.get()
-                .uri("http://localhost:8082/api/v1/inventory",
+        InventoryResponseDto[] inventoryResponseDtos = webClientBuilder.build().get()
+                .uri("http://inventory-service/api/v1/inventory",
                         uriBuilder -> uriBuilder.queryParam("skuCode", skuCodes).build())
                 .retrieve()
                 .bodyToMono(InventoryResponseDto[].class)
